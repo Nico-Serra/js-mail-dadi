@@ -30,4 +30,33 @@ button{
     padding: 1rem 0.5rem;
     border: none;
     border-radius: 1rem;
+    background-color: white;
 }
+
+hr{
+    margin-top: 2rem;
+    height: 15px;
+    background-color: white;
+}
+
+.container{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.numbers{
+    padding-top: 2rem;
+    font-size: 70px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
