@@ -66,11 +66,11 @@ document.querySelector('button').addEventListener('click', function (e) {
 //console.log(generate);
 
 let numbers = document.querySelector('.numbers')
-console.log(numbers);
+//console.log(numbers);
 
 //- Creiamo una array che va da 1 a 6
 const nut = [1,2,3,4,5,6]
-console.log(nut);
+//console.log(nut);
 
 let container = document.querySelector('.container')
 
@@ -80,10 +80,10 @@ let h3 = document.querySelector('h3')
 document.querySelector('.generate').addEventListener('click', function () {
 
     let player = Math.floor(Math.random() * 6) + 1;
-    console.log(player);
+    //console.log(player);
 
     let pc = Math.floor(Math.random() * 6) + 1;
-    console.log(pc);
+    //console.log(pc);
 
     //numbers.insertAdjacentHTML('beforeend', `<span">${player}</span>`)
     //numbers.insertAdjacentHTML('beforeend', `<span>${pc}</span>`)
