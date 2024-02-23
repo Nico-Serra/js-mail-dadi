@@ -19,7 +19,7 @@ const email = document.getElementById('email')
 let h1 = document.querySelector('h1')
 //console.log(email);
 
-document.querySelector('button').addEventListener('click', function (e) {
+document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
 
     console.log(email.value);
@@ -30,7 +30,7 @@ document.querySelector('button').addEventListener('click', function (e) {
     //- Creiamo una lista di chi può accedere con un array
 
     const list = ['boolean@gmail.com', 'nico@gmail.com', 'giuliano@gmail.com', 'artur@gmail.com', 'pincopallino@gmail.com'];
-    console.log(typeof list[0]);
+    //console.log(typeof list[0]);
     //console.log(list);
 
     /*Confrontiamo il value dell'input inserito con la nostra lista
